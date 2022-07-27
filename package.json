@@ -1,0 +1,19 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "Product preview components",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "parcel",
+    "build": "parcel build index.html --dist-dir dist"
+  },
+  "author": "Oyefule Oluwatayo",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "node-sass": "^7.0.1",
+    "parcel": "^2.6.2"
+  }
+}
